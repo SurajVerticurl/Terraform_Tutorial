@@ -105,6 +105,10 @@ resource "aws_route" "Suraj_route" {
   gateway_id                = aws_internet_gateway.gw.id
 }
 
+
+------------------Auto Scaling Group -----------------------
+
+
 # Creating a Launch Configuration for ASG
 
 resource "aws_launch_configuration" "main" {
